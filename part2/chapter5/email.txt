@@ -1,0 +1,7 @@
+From: "chanweiyan007@gmail.com"
+To: "customer@gmail.com"
+Subject: "I'm subject"
+
+This is the body of the email.
+...
+...
