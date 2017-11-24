@@ -1,12 +1,7 @@
 def fahr2cels(fahr)
-  (fahr - 32) * 5 / 9
-end 
-
-(1..100).each do |i|
-  if i % 2 == 0
-    next
-  end
-  p fahr2cels(i)
+  (fahr.to_f - 32) * 5.0 / 9.0
 end
 
-
+(1..100).each do |i|
+  puts "#{i}: " + "#{fahr2cels(i)}"
+end
